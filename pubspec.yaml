@@ -1,0 +1,27 @@
+name: todo_list
+description: To Do List app to help you stay organized and manage your day.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+  intl: ^0.17.0
+  google_fonts: ^2.1.0
+  shared_preferences: ^2.0.11
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
